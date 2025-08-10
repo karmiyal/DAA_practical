@@ -14,7 +14,6 @@ void insertionSort(int arr[], int n) {
 int main() {
     int arr[5]={9,3,4,5,2};
     int size=sizeof(arr)/sizeof(arr[0]);
-    printf("Enter elements: ");
     for (int i = 0; i < size; i++) {
         scanf("%d", &arr[i]);
     }
