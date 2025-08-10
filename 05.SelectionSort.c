@@ -7,8 +7,7 @@ void selectionSort(int arr[], int n) {
             if (arr[j] < arr[minIndex]) {
                 minIndex = j;
             }
-        }
-        // Swap the found minimum element with the first element
+        } // Swap the found minimum element with the first element
         if (minIndex != i) {
             int temp = arr[i];
             arr[i] = arr[minIndex];
@@ -24,11 +23,9 @@ int main() {
         scanf("%d", &arr[i]);
     }
     selectionSort(arr, n);
-
     printf("Sorted array: ");
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
-
     return 0;
 }
