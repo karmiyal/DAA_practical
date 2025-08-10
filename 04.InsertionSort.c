@@ -15,7 +15,7 @@ void insertionSort(int arr[], int n) {
 int main() {
     int n=5;
     int arr[5];
-    printf("Enter elements: ");
+    printf("Enter elements: \n");
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
